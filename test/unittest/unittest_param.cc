@@ -1,5 +1,8 @@
 #include <gtest/gtest.h>
 #include <dmlc/parameter.h>
+#include <vector>
+#include <string>
+#include <cmath>
 
 struct LearningRateParam : public dmlc::Parameter<LearningRateParam> {
   float learning_rate;
